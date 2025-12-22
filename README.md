@@ -3,9 +3,9 @@
   
   # Hi, I'm Anthony! <img src="https://raw.githubusercontent.com/Martin Heinz/MartinHeinz/master/wave.gif" width="30px">
 
-  ### B.Tech Computer Engineering & Data Science Honors Student
+  ### B.Tech - Computer Engineering & Honours - Data Science and Analytics Student
   
-  *Analysis on the pitch, Code in the IDE, Cinema on the screen.*
+  *Powered by Code, Cinema, and Sports. (Not necessarily in that order)*
 
   ---
 
@@ -20,7 +20,7 @@
 
 ### 🛠️ Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,mysql,git,github,streamlit" />
+  <img src="https://skillicons.dev/icons?i=js,jquery,nodejs,express,html,css,bootstrap,python,c,cpp,mysql,git,github,streamlit" />
 </div>
 
 <br>
