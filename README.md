@@ -8,10 +8,10 @@
   *Powered by Code, Cinema, and Sports. (Not necessarily in that order)*
 
   ---
-
+<!--
   <img src="https://github-readme-stats.vercel.app/api?username=anthonyjennis&show_icons=true&theme=dark&hide_border=true" height="150" alt="Anthony's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthonyjennis&layout=compact&theme=dark&hide_border=true" height="150" alt="Top Languages" />
-
+-->
 </div>
 
 ### 🎯 2026 Goals
@@ -20,7 +20,7 @@
 
 ### 🛠️ Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,jquery,nodejs,express,html,css,bootstrap,python,c,cpp,mysql,git,github,streamlit" />
+  <img src="https://skillicons.dev/icons?i=js,jquery,nodejs,npm,express,postman,react,html,css,bootstrap,python,r,c,cpp,mysql,postgres,mongodb,git,github,streamlit" />
 </div>
 
 <br>
