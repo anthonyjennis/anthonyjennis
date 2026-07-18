@@ -16,7 +16,7 @@
 
 ### 🎯 2026 Goals
 * **Ship More Code:** Moving from tutorials to deploying full-stack "fun" projects.
-* **Cricket Analytics:** Building Streamlit dashboards to decode the game.
+* **Sports Analytics:** Building dashboards to decode the game.
 
 ### 🛠️ Tech Stack
 <div align="center">
@@ -28,16 +28,12 @@
 ### ⚡ The Person Behind the Code
 - 🏏 Die-hard **Mumbai Indians** fan (Paltan 💙) and ⚽ **Liverpool FC** supporter (YNWA 🔴).
 - 🎬  Massive **Cinema Geek**, especially for Marvel and Star Wars. You'll find me logging everything on Letterboxd.
-- 📚 **Currently Reading:** *1984* by George Orwell.
-- 🎧 **Currently Listening:** *The Sandman* (Audiobook).
-- 🎮 **Gaming:** Regular **FC Mobile** grinder.
+- 📚 **Currently Reading:** *The Trading Game* by Gary Stevenson.
+- 🎧 **Currently Listening:** *A Short History of Nearly Everything* by Bill Bryson.
 
 <div align="center">
   <a href="https://linkedin.com/in/anthony-nadar-1957941a9">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://x.com/aj_240105">
-    <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
   <a href="https://letterboxd.com/ajragnarok/">
     <img src="https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white" />
