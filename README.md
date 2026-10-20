@@ -29,7 +29,7 @@
 - 🏏 Die-hard **Mumbai Indians** fan (Paltan 💙) and ⚽ **Liverpool FC** supporter (YNWA 🔴).
 - 🎬  Massive **Cinema Geek**, especially for Marvel and Star Wars. You'll find me logging everything on Letterboxd.
 - 📚 **Currently Reading:** *The Trading Game* by Gary Stevenson.
-- 🎧 **Currently Listening:** *A Short History of Nearly Everything* by Bill Bryson.
+- 🎧 **Currently Listening:** *Animal Farm* by George Orwell.
 
 <div align="center">
   <a href="https://linkedin.com/in/anthonyjennis">
