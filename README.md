@@ -32,7 +32,7 @@
 - 🎧 **Currently Listening:** *A Short History of Nearly Everything* by Bill Bryson.
 
 <div align="center">
-  <a href="https://linkedin.com/in/anthony-nadar-1957941a9">
+  <a href="https://linkedin.com/in/anthonyjennis">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://letterboxd.com/ajragnarok/">
