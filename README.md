@@ -66,7 +66,7 @@
     <td colspan="2" valign="top">
       <h4>✍️ The Fifth Day</h4>
       <a href="https://thefifthday.substack.com"><img src="https://img.shields.io/badge/read-thefifthday.substack.com-FF6719?style=flat-square&logo=substack&logoColor=white" alt="The Fifth Day on Substack" /></a><br/>
-      A sports media brand I founded. It's mostly cricket, with the odd detour into football and tennis, and starts as a Substack newsletter. <i>Stories develop. Opinions form. Truth arrives.</i>
+      A sports media brand I founded. It's mostly cricket, with the odd detour into football and tennis, and starts as a Substack newsletter.
     </td>
   </tr>
 </table>
