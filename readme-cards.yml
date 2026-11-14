@@ -1,0 +1,55 @@
+# Save as .github/workflows/readme-cards.yml in your anthonyjennis/anthonyjennis repo.
+# Generates the stats, top-languages and snake SVGs into ./profile and commits them,
+# so the README never depends on the rate-limited public github-readme-stats instance.
+
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "30 18 * * *" # daily, ~midnight IST
+  workflow_dispatch: # lets you run it from the Actions tab
+  push:
+    branches: [main]
+    paths: [".github/workflows/readme-cards.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=0d1117&title_color=4f8cff&icon_color=d4af37&text_color=c9d1d9&ring_color=4f8cff
+          path: profile/stats.svg
+          # Optional: add a PAT (repo + read:user scopes) as README_STATS_TOKEN to include private contributions.
+          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=4f8cff&text_color=c9d1d9
+          path: profile/top-langs.svg
+          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake-dark.svg?palette=github-dark&color_snake=#d4af37&color_dots=#161b22,#0b2a6b,#1f5fbf,#4f8cff,#9ec5ff
+            profile/snake-light.svg?palette=github-light&color_snake=#004ba0&color_dots=#ebedf0,#bfd6f6,#8dbdff,#4b91f1,#1f5fbf
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: refresh README cards" || exit 0
+          git push
