@@ -4,12 +4,12 @@
 <img src="./profile/header.svg" width="100%" alt="Hi, I'm Anthony" />
 
 <a href="https://github.com/anthonyjennis">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=4F8CFF&center=true&vCenter=true&width=650&lines=Final-year+Computer+Engineering+%40+KJ+Somaiya;Honours+in+Data+Science+%26+Analytics;Building+agentic+AI+%C2%B7+Deep+Learning+%C2%B7+LLMs;Shipping+full-stack+apps+that+actually+deploy;Founder+%40+The+Fifth+Day+%E2%80%94+cricket%2C+told+properly" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=4F8CFF&center=true&vCenter=true&width=650&lines=Final-year+Computer+Engineering+%40+KJ+Somaiya;Honours+in+Data+Science+%26+Analytics;Building+PR+Sentinel%2C+an+AI+code-review+agent;Shipping+full-stack+apps+that+actually+deploy;Founder+%40+The+Fifth+Day+%E2%80%94+cricket%2C+told+properly" alt="Typing intro" />
 </a>
 
 *Powered by Code, Cinema, and Sports. (Not necessarily in that order)* <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="24px" alt="wave" />
 
-<img src="https://komarev.com/ghpvc/?username=anthonyjennis&label=Spectators&color=004ba0&style=flat-square" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=anthonyjennis&label=Profile%20views&color=004ba0&style=flat-square" alt="Profile views" />
 <img src="https://img.shields.io/badge/Open%20to-AI%20Dev%20Internships-d4af37?style=flat-square" alt="Open to AI dev internships" />
 <img src="https://img.shields.io/badge/Based%20in-Mumbai-4f8cff?style=flat-square" alt="Based in Mumbai" />
 
@@ -17,92 +17,63 @@
 
 ---
 
-### 🏏 Currently at the Crease
+### 🔭 What I'm Up To
 
 <img align="right" src="https://media.giphy.com/media/l0NwGpoOVLTAyUJSo/giphy.gif" width="200px" alt="coding gif" />
 
-- 🔭 **Building** **PR Sentinel**, an agentic AI project I'm taking from idea to demo-ready
-- 🌍 **Growing** **Odos** from "deployed" into a real product people can use
+- 🛡️ **Building** **PR Sentinel**, an AI agent that reviews GitHub pull requests for security issues
+- 🌍 **Growing** [**Odos**](https://odos-rbji.onrender.com/) from "deployed" into a real product people can use
 - 🌱 **Learning** Deep Learning (CNNs, RNNs, GANs) and LLMs (RAG, LoRA/PEFT, quantization, evals)
-- ⚙️ **Levelling up** on DevOps: Docker, Jenkins, Kubernetes, Terraform, Prometheus/Grafana
-- ✍️ **Writing** long-form cricket at **The Fifth Day**
-- 🎯 **Looking for** an AI development internship starting **December 2026**
+- ✍️ **Writing** about cricket at [**The Fifth Day**](https://thefifthday.substack.com)
+- 🎯 **Looking for** an AI development internship
 
 <br clear="right" />
 
 ---
 
-### 🏟️ Featured Fixtures
+### 🚀 Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h4>🛡️ PR Sentinel</h4>
+      <img src="https://img.shields.io/badge/status-building-4f8cff?style=flat-square" alt="building" /><br/>
+      An AI agent that reviews GitHub pull requests for security vulnerabilities and refactoring opportunities. It pulls the PR diff and asks an LLM for structured findings: file, line, issue and suggested fix. Coming next: MCP tools, hooks and a GitHub Actions step that runs it on pull requests.<br/><br/>
+      <sub><b>Python · GitHub API · LLMs via OpenRouter · Claude Code</b></sub>
+    </td>
+    <td width="50%" valign="top">
       <h4>🌍 Odos</h4>
-      <img src="https://img.shields.io/badge/status-live-2ea44f?style=flat-square" alt="live" /><br/>
+      <a href="https://odos-rbji.onrender.com/"><img src="https://img.shields.io/badge/live-odos--rbji.onrender.com-2ea44f?style=flat-square&logo=render&logoColor=white" alt="Live on Render" /></a><br/>
       A travel tracker built around an interactive SVG world map: log the countries you've been to and watch the map fill in.<br/><br/>
       <sub><b>Node.js · Express · PostgreSQL · Passport (Google OAuth) · EJS</b><br/>Deployed on Render with Neon Postgres</sub>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏏 IPL Fantasy Decision Support</h4>
+      <a href="https://ipl-fantasy.streamlit.app/"><img src="https://img.shields.io/badge/live-Streamlit%20app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Live on Streamlit" /></a><br/>
+      Predicts IPL fantasy points and picks a squad. It turns nested match JSON into clean tables, trains a Random Forest on time-based train/test splits so no future data leaks into training, and builds the squad with a greedy optimiser.<br/><br/>
+      <sub><b>Python · scikit-learn · NumPy · Streamlit</b></sub>
+    </td>
     <td width="50%" valign="top">
       <h4>💼 Patina</h4>
-      <img src="https://img.shields.io/badge/status-in%20development-d4af37?style=flat-square" alt="in development" /><br/>
+      <a href="https://github.com/C72-BTECH-PROJECT/Patina"><img src="https://img.shields.io/badge/repo-C72--BTECH--PROJECT%2FPatina-181717?style=flat-square&logo=github&logoColor=white" alt="Patina repo" /></a><br/>
       A team-built job platform with separate candidate and recruiter experiences and an NLP engine under the hood.<br/><br/>
       <sub><b>React (Vite) · Node.js · Express · Passport (Local / Google / GitHub OAuth)</b><br/>Role-based access control</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ PR Sentinel</h4>
-      <img src="https://img.shields.io/badge/status-building-4f8cff?style=flat-square" alt="building" /><br/>
-      An agentic AI system, my main build right now, heading for a full demo.<br/><br/>
-      <sub><b>Python · LLM agents</b></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏏 The Fifth Day</h4>
-      <img src="https://img.shields.io/badge/status-founder-7a1c1c?style=flat-square" alt="founder" /><br/>
-      A cricket-first sports media brand (with the odd detour into football and tennis), starting as a Substack newsletter.<br/><br/>
-      <sub><b>Stories develop. Opinions form. Truth arrives.</b></sub>
+    <td colspan="2" valign="top">
+      <h4>✍️ The Fifth Day</h4>
+      <a href="https://thefifthday.substack.com"><img src="https://img.shields.io/badge/read-thefifthday.substack.com-FF6719?style=flat-square&logo=substack&logoColor=white" alt="The Fifth Day on Substack" /></a><br/>
+      A sports media brand I founded. It's mostly cricket, with the odd detour into football and tennis, and starts as a Substack newsletter. <i>Stories develop. Opinions form. Truth arrives.</i>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🧰 The Kit Bag
-
-<div align="center">
-
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=py,js,java,c,cpp,r,php&perline=10" alt="Languages" />
-
-**Full-Stack**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,react,vite,html,css,bootstrap,npm,postman&perline=10" alt="Full-stack" /><br/>
-<img src="https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge&logo=passport&logoColor=white" alt="Passport.js" />
-<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black" alt="EJS" />
-<img src="https://img.shields.io/badge/OAuth%202.0-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth" />
-
-**Data & ML**<br/>
-<img src="https://skillicons.dev/icons?i=sklearn&perline=10" alt="scikit-learn" /><br/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
-
-**Databases**<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=10" alt="Databases" />
-
-**Ship It**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vscode&perline=10" alt="Tooling" /><br/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" />
-
-**🌱 In the Nets** <sub>(learning right now)</sub><br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,terraform,ansible,prometheus,grafana&perline=10" alt="Learning" />
-
-</div>
-
----
-
-### 📊 The Scorecard
+### 📊 GitHub Stats
 
 <div align="center">
 
@@ -121,17 +92,54 @@
 
 ---
 
-### 🎯 2026 Targets
+### 🛠️ Tech Stack
 
-- [x] **Ship more code:** go from tutorials to deployed full-stack projects (Odos is live)
+<div align="center">
+
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=py,js,c,cpp&perline=10" alt="Languages" />
+
+**Full-Stack**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,vite,html,css,bootstrap,npm,postman&perline=10" alt="Full-stack" /><br/>
+<img src="https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge&logo=passport&logoColor=white" alt="Passport.js" />
+<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black" alt="EJS" />
+<img src="https://img.shields.io/badge/OAuth%202.0-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth" />
+
+**Data & ML**<br/>
+<img src="https://skillicons.dev/icons?i=sklearn&perline=10" alt="scikit-learn" /><br/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
+
+**AI & Agents**<br/>
+<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
+<img src="https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openrouter&logoColor=white" alt="OpenRouter" />
+<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+<img src="https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub API" />
+
+**Databases**<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,mongodb&perline=10" alt="Databases" />
+
+**Tools & Deployment**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vscode&perline=10" alt="Tooling" /><br/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" />
+
+</div>
+
+---
+
+### 🎯 2026 Goals
+
+- [x] **Ship more code:** go from tutorials to deployed projects ([Odos](https://odos-rbji.onrender.com/) and [IPL Fantasy](https://ipl-fantasy.streamlit.app/) are live)
 - [ ] **Agentic AI:** take PR Sentinel to demo-ready
-- [ ] **Sports analytics:** build dashboards that decode the game
-- [ ] **The Fifth Day:** get back to a weekly publishing rhythm
+- [x] **Sports analytics:** build dashboards that decode the game
 - [ ] **Land an AI development internship**
 
 ---
 
-### ⚡ Off the Field
+### ⚡ The Person Behind the Code
 
 - 🏏 Die-hard **Mumbai Indians** fan (Paltan 💙) and ⚽ **Liverpool FC** supporter (YNWA 🔴).
 - 🎬 Massive **Cinema Geek**, especially for Marvel and Star Wars. You'll find me logging everything on Letterboxd.
@@ -142,10 +150,16 @@
 
 <div align="center">
 
-### 📬 Meet Me at the Pavilion
+### 📬 Let's Connect
 
 <a href="https://linkedin.com/in/anthonyjennis">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://x.com/aj_240105">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
+</a>
+<a href="https://thefifthday.substack.com">
+  <img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" />
 </a>
 <a href="https://letterboxd.com/ajragnarok/">
   <img src="https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white" alt="Letterboxd" />
@@ -153,11 +167,6 @@
 <a href="mailto:anthonyjennis24@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
-<!-- Add your Substack URL and uncomment:
-<a href="https://YOUR-SUBSTACK.substack.com">
-  <img src="https://img.shields.io/badge/The%20Fifth%20Day-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="The Fifth Day on Substack" />
-</a>
--->
 
 <img src="./profile/footer.svg" width="100%" alt="footer" />
 
